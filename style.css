@@ -50,6 +50,11 @@ body{
 	margin-left: 20px;
 	border: none;
 	border-radius: 5px;
+	transition: .1s ease-in-out;
+}
+#signin:hover{
+	filter:opacity(80%);
+	cursor: pointer;
 }
 .info{
 	height: 40rem;
