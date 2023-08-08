@@ -1,0 +1,112 @@
+*{
+	padding: 0px;
+	margin: 0px;
+	box-sizing: border-box;
+}
+body{
+	width: 100%;
+}
+.sec1{
+	background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,.7)),url('back.jpg'); 
+	background-repeat: no-repeat;
+	background-size: cover; 
+	background-position: center;
+	/* height: 43rem; */
+	/* display: flex; */
+}
+#navbar{
+	height: 90px;
+	width: 100%;
+	display: flex;
+	
+	justify-content:space-between;	
+}
+.logo{
+	margin-left: 130px;
+}
+.home-btn{
+	margin: 10px 100px;
+	width: 28%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+#lang{
+	background-color: transparent;
+	color: white;
+	width: 100px;
+	padding: 5px 10px;
+	font-size: 1rem;
+	/* border: .1px solid white; */
+	border: 1px solid grey;
+	border-radius: 5px;
+}
+#signin{
+	background-color: red;
+	color: white;
+	font-size: .8rem;
+	width: 75px;
+	height: 30px;
+	margin-left: 20px;
+	border: none;
+	border-radius: 5px;
+}
+.info{
+	height: 40rem;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+.info h1{
+	font-size: 3.2rem;
+	font-weight: bold;
+	color: white;
+}
+.info p{
+	font-size: 1.5rem;
+	color: white;
+	margin: 15px 0px;
+}
+.email-start input{
+	background-color: black;
+	color: white;
+	height: 50px;
+	width: 300px;
+	border: 1px solid gray;
+	padding: 10px;
+}
+.email-start button{
+	background-color: red;
+	color: white;
+	height: 40px;
+	border: none;
+	border-radius: 4px;
+	width: 200px;
+	height: 50px;
+	font-size: 1.5rem;
+	transition: .1s ease-in-out ;
+	margin-left: 10px;
+	
+}
+.email-start button:hover{
+	cursor: pointer;
+	filter: opacity(80%);
+}
+.sec3{
+	display: flex;
+	width: 100%;
+	height: 20rem;
+	justify-content: space-around;
+	align-items: center;
+	color: white;
+	background-color: black;
+}
+.left h1{
+	font-size: 3.5rem;
+	font-weight: 800;
+	margin-bottom: 20px;
+}
+.left p{
+	font-size: 1.7rem;
+}
